@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #455d7a; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.navbar{
+    background-color:#142d4c;
+  }
+  .navbar .nav-link{
+    background-color: #142d4c;
+    border: 2px solid #f67280;
+   color: white;
+    font-size: large !important;
+    margin: 10px;
+  } 
+
+  .navbar .nav-link:hover{
+    background-color: #f67280;
+    color: #142d4c !important;
+    transition: background-color 0.5s linear;
+
+  }
+  .brand-highlight{
+    color:skyblue;
+}
+  h2:hover{
+    color: #f67280;
+  }
+  
+  .btn{
+      background-color:#142d4c;
+      color: #f67280;
+      font-size: large;
+     
+      letter-spacing: 2px;
+  }
+  .btn:hover{
+    background-color: #f67280;
+    color:#142d4c;
+  }
+.container {
+    max-width: 400px;
+    margin: 30px auto;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
